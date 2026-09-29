@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh Sandip Palsapure | Portfolio</title>
+    <style>
+    
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101820;
+    color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #172a3a;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+    color: #00ffff;
+    text-shadow:0px 0px 10px #00ffff,
+                0px 0px 20px #00ffff,
+                0px 0px 30px #00ffff;
+}
+
+header .tagline {
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #4da3ff;
+    text-shadow:
+        0px 0px 8px #4da3ff,
+        0px 0px 15px #4da3ff;
+}
+
+nav {
+    background-color: #0b1117;
+    padding: 18px;
+    border-top: 1px solid #00ffff;
+    border-bottom: 1px solid #00ffff;
+    box-shadow: 0px 0px 10px #00ffff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00ffff;
+    background-color: #172a3a;
+    text-shadow: 0px 0px 8px #00ffff;
+    box-shadow: 0px 0px 8px #00ffff;
+}
+
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #172a3a;
+    border-radius: 10px;
+    scroll-margin-top: 80px;
+}
+
+section h2 {
+    color: #4da3ff;
+    margin-top: 0px;
+}
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+#skills ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+}
+
+#skills li {
+    background-color: #243b53;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project {
+    background-color: #243b53;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    color: #4da3ff;
+}
+
+.timeline-item {
+    border-left: 3px solid #4da3ff;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.timeline-item h3 {
+    color: #4da3ff;
+}
+
+#contact a {
+    color: #4da3ff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        margin: 20px;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+    <h1>Prathamesh Sandip Palsapure</h1>
+     <p class="tagline"> Web Developer</p>
+     </header>
+
+     <nav>
+     <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+     </ul>
+     </nav>
+
+     <section id="about">
+        <h2>About Me</h2>
+        <img src="https://media1.tenor.com/m/zEVm939XfxIAAAAd/thorfinn-vinland-saga-thorfinn.gif" alt="Profile pic">
+        <p>Hi, I'm Prathamesh Sandip Palsapure, a student learning Web Development . I enjoy building simple, useful websites and learning new tools .   </p>
+        <br>
+        <p>I am currently developing my skills in HTML, CSS, JavaScript, and programming. I enjoy turning ideas into projects and improving my skills through practice.</p>
+     </section>
+
+     <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JvaScript</li>
+            <li>Git and GitHub</li>
+        </ul>
+     </section>
+     <br>
+
+     <section id="projects">
+        
+        <h2>Projects</h2>
+        
+        <div class="project">
+        <h3>Project One</h3>
+        <p> A simple portfolio website created using HTML and CSS to showcase my skills, education, and projects. </p></div>
+
+        <div class="project"> 
+        <h3>To-Do List</h3> 
+        <p> A simple to-do list application that helps users add, manage, and complete their daily tasks. </p> </div> 
+        
+        <div class="project"> 
+        <h3>Calculator</h3> 
+        <p> A basic calculator project that performs common mathematical operations using HTML, CSS, and JavaScript. </p> </div>
+     
+    </section>
+
+     <section id="education">
+    
+        <h2>Education</h2>
+    
+        <div class="timeline-item"> <h3>2024</h3> 
+        <h4>Montfort Sr. Sec. School, Nagpur</h4>
+        <p>Completed Class 10 (SSC).</p> </div> 
+    
+        <div class="timeline-item"> 
+        <h3>2024 - 2026</h3>
+        <h4>Royal Gondwana Public School, Nagpur</h4> 
+        <p>Completed Class 11 and Class 12.</p> </div> 
+    
+        <div class="timeline-item"> 
+        <h3>2026 - Present</h3>
+        <h4>Scaler School of Technology, Banglore</h4>
+        <p>Pursuing B.S in Data Science and Applications.</p> </div> 
+    
+        <div class="timeline-item"> 
+        <h3>2026 - Present</h3> 
+        <h4>IIT Madras  </h4>
+        <p>Student pursuing higher education in Computer Science.</p> </div> </div>
+    
+    </section>
+
+     <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'm always open to connecting, learning, and discussing interesting projects and opportunities.</p>
+
+        <p>Email: prathameshpalsapure@gmail.com</p>
+
+        <p>
+            <a href="https://www.linkedin.com/in/prathamesh-palsapure-562aa1427/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9XzQxnT%2BSDOn9LrH7LQ%2BWA%3D%3D">LinkedIn</a>
+             <a href="https://github.com/prathameshpalsapure-dell-G15">GitHub</a>
+        </p>
+     </section>
+</body>
+</html>
